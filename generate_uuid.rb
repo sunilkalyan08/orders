@@ -1,4 +1,3 @@
-require 'pry'
 require 'redis'
 def generate_order_number(user_id=5570)
   $redis = Redis.new(url: "redis://localhost:6379")
